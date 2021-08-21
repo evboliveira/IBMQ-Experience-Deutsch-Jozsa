@@ -9,7 +9,9 @@ gate uf_c a, b, c, d {
 }
 //Simulating the balanced function
 gate uf_b a, b, c, d {
-  cx a, d;
+  id a
+  id b
+  cx c, d;
 }
 
 //Defining the quantum and classical registers
