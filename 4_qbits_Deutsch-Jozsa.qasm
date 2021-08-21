@@ -5,12 +5,16 @@ include "qelib1.inc";
 
 //Simulating the constant function
 gate uf_c a, b, c, d {
+  id a;
+  id b;
+  id c;
   x d;
 }
+
 //Simulating the balanced function
 gate uf_b a, b, c, d {
-  id a
-  id b
+  id a;
+  id b;
   cx c, d;
 }
 
